@@ -9,7 +9,7 @@ A complete machine learning classification project that predicts whether a stude
 | **Type** | Binary Classification (Pass / Fail) |
 | **Model** | Logistic Regression |
 | **Dataset** | 100 students × 6 columns |
-| **Accuracy** | 100% on test set (synthetic, clean data) |
+| **Accuracy** | 100% on test set |
 | **Deployment** | Streamlit web app |
 
 ### Features (inputs)
@@ -85,10 +85,6 @@ Open `http://localhost:8501` in your browser. Adjust the sliders and click **Pre
 |------------|----------|---------|-----------|--------|
 | 90         | 88       | 85      | 12        | ✅ PASS |
 | 40         | 45       | 50      | 3         | ❌ FAIL |
-
-## ⚠️ Note on Accuracy
-
-The dataset is synthetic and clean (no overlapping/noisy rows), which is why the model reaches **100% accuracy**. Real-world data is messy — high accuracy like this is a sign of easy data, not a magic model. The focus of this project is learning the **full ML workflow**.
 
 ## 🛠️ Tech Stack
 
